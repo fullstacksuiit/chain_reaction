@@ -23,7 +23,7 @@ public class Main extends Application {
      */
     @Override public void start(Stage primaryStage) throws Exception {
         Scene home = new Scene(FXMLLoader.load(getClass().getResource("../resources/fxml/home.fxml")), 600, 900);
-        primaryStage.setTitle("Chain Reaction");
+        primaryStage.setTitle("Chain Reaction game");
         primaryStage.setScene(home);
         GameState.mainStage = primaryStage;
         GameState.mainStage.show();
